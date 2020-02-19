@@ -13,11 +13,11 @@ public class fileInSystem implements Comparable<fileInSystem>{
 
     @Override
     public int compareTo(fileInSystem o) {
-        if (this.size == o.size) return 1;
+        if (this.size == o.size) return 0;
         else {
-            if (pathToFile.equals(o.pathToFile)) return 1;
+            if (pathToFile.equals(o.pathToFile)) return 0;
             else if (name.equals(o.name)) return -1;
         }
-        return 0;
+        return 1;
     }
 }
