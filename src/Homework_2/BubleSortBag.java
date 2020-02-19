@@ -14,7 +14,7 @@ public class BubleSortBag implements Comparator<Bag> {
         for (int i = 0; i < bags.length; i++) {
             Bag pivot;
             for (int j = 0; j < bags.length - 1; j++) {
-                if(compare(bags[i], bags[j]) > 0)  {
+                if (compare(bags[i], bags[j]) > 0) {
                     pivot = bags[i];
                     bags[i] = bags[j];
                     bags[j] = pivot;
@@ -23,21 +23,23 @@ public class BubleSortBag implements Comparator<Bag> {
         }
         return bags;
     }
+
     public static void main(String[] args) {
         Bag bag3 = new Bag("r+", "adidas", 15);
         Bag bag1 = new Bag("r", "adidas", 11);
         Bag bag2 = new Bag("r", "nike", 10);
         Bag[] bags = new Bag[]{bag3, bag2, bag1};
 
-       BubleSortBag bubleSortBag = new BubleSortBag();
-       Bag[] sortBags = bubleSortBag.sort(bags);
+        BubleSortBag bubleSortBag = new BubleSortBag();
+        Bag[] sortBags = bubleSortBag.sort(bags);
         for (int i = 0; i < bags.length; i++) {
-            System.out.println(i  + ": " + bags[i]);
+            System.out.println(i + ": " + bags[i]);
         }
         System.out.println(bubleSortBag.compare(bag1, bag2));
         System.out.println("Sort bag ");
         for (int i = 0; i < sortBags.length; i++) {
-            System.out.println(i  + ": " + sortBags[i].getWidth());
+            System.out.println(i + ": " + sortBags[i].getWidth());
         }
     }
 }
+
