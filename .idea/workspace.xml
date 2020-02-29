@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38dc7a4f-71c2-4dad-92d8-6a1eb8fb3e7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/QSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collection/Collection_self.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collection/ModCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson_kpfu_2/Algorithm/Set.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson_kpfu_2/Algorithm/Set.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +60,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
-    <configuration name="EdgeIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Iterator.EdgeIterator" />
+  <component name="RunManager" selected="Application.LinkedList">
+    <configuration name="Collection_self" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.Collection_self" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Iterator.*" />
+          <option name="PATTERN" value="Collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +87,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Multiset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.Multiset" />
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.LinkedList" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.*" />
+          <option name="PATTERN" value="LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.ModCollection" />
+      <module name="lesson_kpfu_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,33 +126,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Set" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.Set" />
-      <module name="lesson_kpfu_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.EdgeIterator" />
-      <item itemvalue="Application.Set" />
-      <item itemvalue="Application.Multiset" />
       <item itemvalue="Application.QSort" />
       <item itemvalue="Application.HeapSort" />
+      <item itemvalue="Application.Collection_self" />
+      <item itemvalue="Application.ModCollection" />
+      <item itemvalue="Application.LinkedList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedList" />
+        <item itemvalue="Application.ModCollection" />
+        <item itemvalue="Application.Collection_self" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.QSort" />
-        <item itemvalue="Application.Set" />
-        <item itemvalue="Application.Multiset" />
-        <item itemvalue="Application.EdgeIterator" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +157,10 @@
       <workItem from="1581677590732" duration="6249000" />
       <workItem from="1581865305911" duration="7413000" />
       <workItem from="1581959904932" duration="9839000" />
-      <workItem from="1582283128652" duration="7608000" />
+      <workItem from="1582283128652" duration="8641000" />
+      <workItem from="1582702625299" duration="4754000" />
+      <workItem from="1582886793400" duration="6079000" />
+      <workItem from="1582912748799" duration="7573000" />
     </task>
     <servers />
   </component>
@@ -176,5 +179,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/LinkedList.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
