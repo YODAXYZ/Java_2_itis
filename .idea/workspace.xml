@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38dc7a4f-71c2-4dad-92d8-6a1eb8fb3e7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Navigableset/NavigableSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Map/Map.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NavigableSet">
+  <component name="RunManager" selected="Application.Map">
     <configuration name="Collection_self" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Collection.Collection_self" />
       <module name="lesson_kpfu_2" />
@@ -72,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.HeapSort" />
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.LinkedList" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.*" />
+          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.LinkedList" />
+    <configuration name="Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Map.Map" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,19 +125,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HeapSort" />
       <item itemvalue="Application.Collection_self" />
       <item itemvalue="Application.ModCollection" />
       <item itemvalue="Application.LinkedList" />
       <item itemvalue="Application.NavigableSet" />
+      <item itemvalue="Application.Map" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Map" />
         <item itemvalue="Application.NavigableSet" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.ModCollection" />
         <item itemvalue="Application.Collection_self" />
-        <item itemvalue="Application.HeapSort" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +160,11 @@
       <workItem from="1582886793400" duration="6079000" />
       <workItem from="1582912748799" duration="7835000" />
       <workItem from="1583150074355" duration="4299000" />
-      <workItem from="1583300109426" duration="7101000" />
+      <workItem from="1583300109426" duration="9700000" />
+      <workItem from="1583441791555" duration="8051000" />
+      <workItem from="1583580905176" duration="1012000" />
+      <workItem from="1583615498773" duration="123000" />
+      <workItem from="1583664507664" duration="575000" />
     </task>
     <servers />
   </component>
