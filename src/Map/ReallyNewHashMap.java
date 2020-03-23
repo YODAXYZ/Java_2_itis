@@ -1,6 +1,7 @@
-package Project;
+package Map;
 
 import java.util.*;
+import java.util.HashMap;
 
 public class ReallyNewHashMap<K,V> extends AbstractMap<K,V> {
     private HashMapper[] table;
@@ -17,6 +18,18 @@ public class ReallyNewHashMap<K,V> extends AbstractMap<K,V> {
         treshold = INITIAL_CAPASITY * loadfactor;
 
     }
+
+    public ReallyNewHashMap(Map<K, V> map) {
+        map.forEach((k, v) -> {
+            insert(k, v);
+        });
+    }
+    public ReallyNewHashMap(HashMap<K, V> hashMap) {
+        hashMap.forEach((k, v) -> {
+            insert(k, v);
+        });
+    }
+
     public void insert(K key,V value){
         int hs =hash(key.hashCode()); // вычисляем хэш-код значения в таблице
         int idx = indexFor(key.hashCode(),capacity); //вычисляем индекс Ноды в таблице
@@ -42,6 +55,7 @@ public class ReallyNewHashMap<K,V> extends AbstractMap<K,V> {
             refresh();
         }
     }
+
     public Set<V> uniqSet(){
         Set set = new TreeSet();
         for(int i = 0;i<capacity;i++){
@@ -63,24 +77,49 @@ public class ReallyNewHashMap<K,V> extends AbstractMap<K,V> {
         int hs = hash(keym.hashCode());
         int idx = indexFor(keym.hashCode(),capacity);
         HashMapper temp = table[idx];
-        while(temp.next!=null){
+        while(temp!=null){
             if (temp.key.equals(keym)&&temp.hash ==hs){
                 return (V) temp.value;
             }
-            temp = temp.next;
+            if(temp.next!=null) {
+                temp = temp.next;
+            }
         }
         return null;
     }
 
     public void delete(V value){
-        for(int i = 0;i<capacity;i++) {
+        for(int i = 0; i < capacity; i++) {
             if (table[i] != null) {
-                while (table[i]!= null && table[i].value.equals(value)) {  // Если первый элемент и все за ним следующие совпадают по value
-                    if(table[i].next==null){
-                        table[i]=null;
+                if(table[i].next==null){
+                    if(table[i].value.equals((V)value)) {
+                        table[i] = null;
                         continue;
                     }
-                    table[i] = table[i].next;
+
+                } else if(table[i].next !=null){
+                    while (table[i]!=null && table[i].value.equals(value) ){
+                        table[i] = table[i].next;
+                        if(table[i].next == null && table[i].value.equals(value)){
+                            table[i] = null;
+                        }
+                    }
+                }
+                HashMapper temp = table[i];
+                while (temp != null && temp.next != null ) {
+                    while (  temp.next!=null &&  temp.next.value.equals((V) value)){
+                        if(temp.next.next==null){
+                            temp.next = null;
+                            continue;
+
+                        }
+                        temp.next = temp.next.next;
+                    }
+
+                    if(temp.next!=null) {
+
+                        temp = temp.next;
+                    }
                 }
             }
         }
@@ -97,7 +136,6 @@ public class ReallyNewHashMap<K,V> extends AbstractMap<K,V> {
         h ^= (h >>> 20) ^ (h >>> 12);
         return h ^ (h >>> 7) ^ (h >>> 4);
     }
-
 
     @Override
     public Set<Entry<K, V>> entrySet() {
@@ -120,6 +158,40 @@ public class ReallyNewHashMap<K,V> extends AbstractMap<K,V> {
                 }
             }
         }
+    }
+
+    public void cout() {
+        for (int i = 0; i < table.length; i++) {
+            if (table[i] != null) {
+                while (true) {
+                    System.out.println("Key: " + table[i].key + " Value: " + table[i].value + " HashCode: " + table[i].hash);
+                    if (table[i].next == null) {
+                        break;
+                    }
+                    table[i] = table[i].next;
+                }
+            }
+        }
+    }
+
+    public int intLenNum() {
+        int count = 0;
+        for (int i = 0; i < table.length; i++) {
+            if (table[i] != null) {
+                while (true) {
+                    String hash = "" + table[i].hash;
+                    String value = "" + table[i].value;
+                    if (hash.length() == value.length() || hash.length()-1 == value.length() || hash.length()+1 == value.length()) {
+                         count++;
+                    }
+                    if (table[i].next == null) {
+                        break;
+                    }
+                    table[i] = table[i].next;
+                }
+            }
+        }
+        return count;
     }
 
 
@@ -158,19 +230,19 @@ public class ReallyNewHashMap<K,V> extends AbstractMap<K,V> {
     }
 
     public static void main(String[] args) {
-        ReallyNewHashMap<String, String> map = new ReallyNewHashMap<>();
-        map.insert("Rem","Glom");
-        map.insert("Rem","Gloria");
-        map.insert("BENDER","GIRONIMK");
+        ReallyNewHashMap<String, String> map = new ReallyNewHashMap<String, String>();
+
+        map.insert("BENDER8","GIRONIMK");
         map.insert("BENDER","GIRONIMK");
         map.insert("BENDERwe","GIRONIMK");map.insert("BENDER1","GIRONIMK");map.insert("BENDER2","GIRONIMK");map.insert("BENDER3","GIRONIMK");
         map.delete("GIRONIMK");
+
+        map.insert("Rem","Glom");
+        map.insert("Rem","Gloria");
         System.out.println(map.get("Rem"));
 
         map.insert("REVELATION","Raxer");
-        System.out.println(Arrays.toString(map.table));
+        map.cout();
     }
-
-
 }
 

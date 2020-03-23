@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38dc7a4f-71c2-4dad-92d8-6a1eb8fb3e7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Map/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Output_Input_Stream/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Output_Input_Stream/WriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Output_Input_Stream/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lesson_kpfu_2/Map/Map$Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson_kpfu_2/Map/Map$Mapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lesson_kpfu_2/Map/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson_kpfu_2/Map/Map.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lesson_kpfu_2/Navigableset/NavigableSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson_kpfu_2/Navigableset/NavigableSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InputStream/MyInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InputStream/MyInputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InputStream/txt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/InputStream/txt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/HashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map/HashMapNadya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/HashMapNadya.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map/NewHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/NewHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map/ReallyNewHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/ReallyNewHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Navigableset/NavigableSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navigableset/NavigableSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project/HashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda_stream/Lambda_comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_stream/Lambda_comparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda_stream/Stream_hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_stream/Stream_hw.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,10 +28,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="lesson_kpfu_2" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -28,17 +49,30 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Homework_2" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Map" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Homework.Comparable" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Homework_2" />
@@ -58,13 +92,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Map">
-    <configuration name="Collection_self" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.Collection_self" />
+  <component name="RunManager" selected="Application.ReadFile">
+    <configuration name="MyInputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InputStream.MyInputStream" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collection.*" />
+          <option name="PATTERN" value="InputStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.LinkedList" />
+    <configuration name="ReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Output_Input_Stream.ReadFile" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="Output_Input_Stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,8 +119,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map.Map" />
+    <configuration name="ReallyNewHashMap (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project.ReallyNewHashMap" />
+      <module name="lesson_kpfu_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReallyNewHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Map.ReallyNewHashMap" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
@@ -98,25 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.ModCollection" />
+    <configuration name="WriteFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Output_Input_Stream.WriteFile" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NavigableSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Navigableset.NavigableSet" />
-      <module name="lesson_kpfu_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Navigableset.*" />
+          <option name="PATTERN" value="Output_Input_Stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,19 +159,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Collection_self" />
-      <item itemvalue="Application.ModCollection" />
-      <item itemvalue="Application.LinkedList" />
-      <item itemvalue="Application.NavigableSet" />
-      <item itemvalue="Application.Map" />
+      <item itemvalue="Application.ReallyNewHashMap" />
+      <item itemvalue="Application.ReallyNewHashMap (1)" />
+      <item itemvalue="Application.MyInputStream" />
+      <item itemvalue="Application.WriteFile" />
+      <item itemvalue="Application.ReadFile" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Map" />
-        <item itemvalue="Application.NavigableSet" />
-        <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Application.ModCollection" />
-        <item itemvalue="Application.Collection_self" />
+        <item itemvalue="Application.ReadFile" />
+        <item itemvalue="Application.WriteFile" />
+        <item itemvalue="Application.MyInputStream" />
+        <item itemvalue="Application.ReallyNewHashMap" />
+        <item itemvalue="Application.ReallyNewHashMap (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +198,15 @@
       <workItem from="1583441791555" duration="8051000" />
       <workItem from="1583580905176" duration="1012000" />
       <workItem from="1583615498773" duration="123000" />
-      <workItem from="1583664507664" duration="575000" />
+      <workItem from="1583664507664" duration="5197000" />
+      <workItem from="1583745466898" duration="254000" />
+      <workItem from="1583755134771" duration="98000" />
+      <workItem from="1583755253614" duration="1128000" />
+      <workItem from="1583758722610" duration="21253000" />
+      <workItem from="1584019661391" duration="7295000" />
+      <workItem from="1584182437744" duration="9742000" />
+      <workItem from="1584953708080" duration="225000" />
+      <workItem from="1584953966844" duration="4159000" />
     </task>
     <servers />
   </component>

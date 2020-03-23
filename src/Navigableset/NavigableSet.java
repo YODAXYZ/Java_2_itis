@@ -3,6 +3,7 @@ package Navigableset;
 import javax.xml.namespace.QName;
 import java.util.*;
 
+
 public class NavigableSet<E> implements SortedSet<E> {
     ArrayList<E> arrayList;
     Comparator<E> comparator;
@@ -83,6 +84,7 @@ public class NavigableSet<E> implements SortedSet<E> {
         }
         return (SortedSet<E>) edge;
     }
+
 
     @Override
     public SortedSet<E> tailSet(E fromElement) {

@@ -6,7 +6,8 @@ import java.util.Collection;
 import java.util.Set;
 
 public class Map<K, V> extends AbstractMap<K, V> implements java.util.Map<K, V> {
-    private ArrayList<Mapper> mappers;
+
+    private ArrayList<Mapper<K, V>> mappers;
     private int count = 0;
 
     public Map() {
@@ -18,6 +19,11 @@ public class Map<K, V> extends AbstractMap<K, V> implements java.util.Map<K, V> 
             System.out.println("Key: " + mappers.get(i).key + "; Value: " + mappers.get(i).value);
         }
     }
+
+    public ArrayList<Mapper<K, V>> getMappers() {
+        return mappers;
+    }
+
 
     @Override
     public int size() {
@@ -61,6 +67,7 @@ public class Map<K, V> extends AbstractMap<K, V> implements java.util.Map<K, V> 
         }
         throw new UnsupportedOperationException();
     }
+
 
     @Override
     public V put(K key, V value) {
@@ -114,14 +121,15 @@ public class Map<K, V> extends AbstractMap<K, V> implements java.util.Map<K, V> 
 
     @Override
     public Set<Entry<K, V>> entrySet() {
-        Set<Entry<K, V>> set = null;
+        ArrayList<Entry<K, V>> set = null;
         for (Mapper mapper : mappers) {
             set.add(mapper);
         }
-        return set;
+        return (Set<Entry<K, V>>) set;
     }
 
-    private class Mapper<K, V> implements Entry<K, V>{
+
+    public static class Mapper<K, V> implements Entry<K, V>{
         K key;
         V value;
         public Mapper(K key, V value) {
