@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38dc7a4f-71c2-4dad-92d8-6a1eb8fb3e7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Output_Input_Stream/ReadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Output_Input_Stream/WriteFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Output_Input_Stream/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson_kpfu_2/Map/Map$Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson_kpfu_2/Map/Map$Mapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson_kpfu_2/Map/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson_kpfu_2/Map/Map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson_kpfu_2/Navigableset/NavigableSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson_kpfu_2/Navigableset/NavigableSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputStream/MyInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InputStream/MyInputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputStream/txt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/InputStream/txt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/HashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map/HashMapNadya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/HashMapNadya.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map/NewHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/NewHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map/ReallyNewHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/ReallyNewHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Navigableset/NavigableSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navigableset/NavigableSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project/HashMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda_stream/Lambda_comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_stream/Lambda_comparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda_stream/Stream_hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_stream/Stream_hw.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +34,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -92,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadFile">
+  <component name="RunManager" selected="Application.Student">
     <configuration name="MyInputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InputStream.MyInputStream" />
       <module name="lesson_kpfu_2" />
@@ -119,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReallyNewHashMap (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Project.ReallyNewHashMap" />
+    <configuration name="ReallyNewHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Map.ReallyNewHashMap" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Project.*" />
+          <option name="PATTERN" value="Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReallyNewHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map.ReallyNewHashMap" />
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Serialize.Student" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Map.*" />
+          <option name="PATTERN" value="Serialize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,18 +142,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ReallyNewHashMap" />
-      <item itemvalue="Application.ReallyNewHashMap (1)" />
       <item itemvalue="Application.MyInputStream" />
       <item itemvalue="Application.WriteFile" />
       <item itemvalue="Application.ReadFile" />
+      <item itemvalue="Application.Student" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Student" />
         <item itemvalue="Application.ReadFile" />
         <item itemvalue="Application.WriteFile" />
         <item itemvalue="Application.MyInputStream" />
         <item itemvalue="Application.ReallyNewHashMap" />
-        <item itemvalue="Application.ReallyNewHashMap (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +188,7 @@
       <workItem from="1584019661391" duration="7295000" />
       <workItem from="1584182437744" duration="9742000" />
       <workItem from="1584953708080" duration="225000" />
-      <workItem from="1584953966844" duration="4159000" />
+      <workItem from="1584953966844" duration="7479000" />
     </task>
     <servers />
   </component>
