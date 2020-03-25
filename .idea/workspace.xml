@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38dc7a4f-71c2-4dad-92d8-6a1eb8fb3e7d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studentObj.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/students.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,16 +52,17 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Homework.Comparable" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Homework_2" />
+      <recent name="$PROJECT_DIR$/src/Homework" />
+      <recent name="$PROJECT_DIR$/src/Homework/Comparable" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Homework_2" />
-      <recent name="$PROJECT_DIR$/src/Homework" />
-      <recent name="$PROJECT_DIR$/src/Homework/Comparable" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -188,7 +191,7 @@
       <workItem from="1584019661391" duration="7295000" />
       <workItem from="1584182437744" duration="9742000" />
       <workItem from="1584953708080" duration="225000" />
-      <workItem from="1584953966844" duration="7479000" />
+      <workItem from="1584953966844" duration="7678000" />
     </task>
     <servers />
   </component>
