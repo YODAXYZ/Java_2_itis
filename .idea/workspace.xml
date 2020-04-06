@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38dc7a4f-71c2-4dad-92d8-6a1eb8fb3e7d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/student.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/studentObj.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/students.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IniFile/IniFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IniFile/WorkWithIni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IniFile/myinifile.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,13 +78,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Student">
-    <configuration name="MyInputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InputStream.MyInputStream" />
+  <component name="RunManager" selected="Application.WorkWithIni">
+    <configuration name="IniFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IniFile.IniFile" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InputStream.*" />
+          <option name="PATTERN" value="IniFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReallyNewHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map.ReallyNewHashMap" />
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Serialize.Student" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Map.*" />
+          <option name="PATTERN" value="Serialize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Serialize.Student" />
+    <configuration name="WorkWithIni" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IniFile.WorkWithIni" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Serialize.*" />
+          <option name="PATTERN" value="IniFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,19 +145,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReallyNewHashMap" />
-      <item itemvalue="Application.MyInputStream" />
       <item itemvalue="Application.WriteFile" />
       <item itemvalue="Application.ReadFile" />
       <item itemvalue="Application.Student" />
+      <item itemvalue="Application.WorkWithIni" />
+      <item itemvalue="Application.IniFile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WorkWithIni" />
+        <item itemvalue="Application.IniFile" />
         <item itemvalue="Application.Student" />
         <item itemvalue="Application.ReadFile" />
         <item itemvalue="Application.WriteFile" />
-        <item itemvalue="Application.MyInputStream" />
-        <item itemvalue="Application.ReallyNewHashMap" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +192,8 @@
       <workItem from="1584019661391" duration="7295000" />
       <workItem from="1584182437744" duration="9742000" />
       <workItem from="1584953708080" duration="225000" />
-      <workItem from="1584953966844" duration="7678000" />
+      <workItem from="1584953966844" duration="8533000" />
+      <workItem from="1586160239099" duration="5515000" />
     </task>
     <servers />
   </component>
