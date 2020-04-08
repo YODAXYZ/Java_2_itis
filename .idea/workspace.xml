@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38dc7a4f-71c2-4dad-92d8-6a1eb8fb3e7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IniFile/IniFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IniFile/WorkWithIni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IniFile/myinifile.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Regex/ClassWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Regex/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Regex/Href.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IniFile/myinifile.ini" beforeDir="false" afterPath="$PROJECT_DIR$/src/IniFile/myinifile.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +40,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesson_kpfu/src/homework/Lesson_7.java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -78,13 +81,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WorkWithIni">
-    <configuration name="IniFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IniFile.IniFile" />
+  <component name="RunManager" selected="Application.Href">
+    <configuration name="Email" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Regex.Email" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IniFile.*" />
+          <option name="PATTERN" value="Regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +95,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Output_Input_Stream.ReadFile" />
+    <configuration name="Href" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Regex.Href" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Output_Input_Stream.*" />
+          <option name="PATTERN" value="Regex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IniFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IniFile.IniFile" />
+      <module name="lesson_kpfu_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IniFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,33 +147,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Output_Input_Stream.WriteFile" />
-      <module name="lesson_kpfu_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Output_Input_Stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.WriteFile" />
-      <item itemvalue="Application.ReadFile" />
       <item itemvalue="Application.Student" />
       <item itemvalue="Application.WorkWithIni" />
       <item itemvalue="Application.IniFile" />
+      <item itemvalue="Application.Email" />
+      <item itemvalue="Application.Href" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Href" />
+        <item itemvalue="Application.Email" />
         <item itemvalue="Application.WorkWithIni" />
         <item itemvalue="Application.IniFile" />
         <item itemvalue="Application.Student" />
-        <item itemvalue="Application.ReadFile" />
-        <item itemvalue="Application.WriteFile" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +196,10 @@
       <workItem from="1584182437744" duration="9742000" />
       <workItem from="1584953708080" duration="225000" />
       <workItem from="1584953966844" duration="8533000" />
-      <workItem from="1586160239099" duration="5515000" />
+      <workItem from="1586160239099" duration="6072000" />
+      <workItem from="1586176616489" duration="989000" />
+      <workItem from="1586180463532" duration="843000" />
+      <workItem from="1586334963112" duration="2747000" />
     </task>
     <servers />
   </component>
