@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38dc7a4f-71c2-4dad-92d8-6a1eb8fb3e7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Regex/ClassWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Regex/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Regex/Href.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IniFile/myinifile.ini" beforeDir="false" afterPath="$PROJECT_DIR$/src/IniFile/myinifile.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="38dc7a4f-71c2-4dad-92d8-6a1eb8fb3e7d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="lesson_kpfu_2" />
@@ -40,13 +46,16 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesson_kpfu/src/homework/Lesson_7.java" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jackson-core-2.10.3.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -81,13 +90,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Href">
-    <configuration name="Email" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Regex.Email" />
+  <component name="RunManager" selected="Application.ClassWork">
+    <configuration name="ClassWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Path.ClassWork" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Regex.*" />
+          <option name="PATTERN" value="Path.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +117,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IniFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IniFile.IniFile" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="lesson_kpfu_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JSON_YAML.ReadJson" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IniFile.*" />
+          <option name="PATTERN" value="JSON_YAML.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,25 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Serialize.Student" />
+    <configuration name="WriteJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JSON_YAML.WriteJson" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Serialize.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WorkWithIni" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IniFile.WorkWithIni" />
-      <module name="lesson_kpfu_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="IniFile.*" />
+          <option name="PATTERN" value="JSON_YAML.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,19 +151,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Student" />
-      <item itemvalue="Application.WorkWithIni" />
-      <item itemvalue="Application.IniFile" />
-      <item itemvalue="Application.Email" />
       <item itemvalue="Application.Href" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.WriteJson" />
+      <item itemvalue="Application.ReadJson" />
+      <item itemvalue="Application.ClassWork" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassWork" />
+        <item itemvalue="Application.ReadJson" />
+        <item itemvalue="Application.WriteJson" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Href" />
-        <item itemvalue="Application.Email" />
-        <item itemvalue="Application.WorkWithIni" />
-        <item itemvalue="Application.IniFile" />
-        <item itemvalue="Application.Student" />
       </list>
     </recent_temporary>
   </component>
