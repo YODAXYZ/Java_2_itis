@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38dc7a4f-71c2-4dad-92d8-6a1eb8fb3e7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AISD/Searching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JSON_YAML/ReadJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSON_YAML/ReadJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JSON_YAML/ReadYAML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSON_YAML/ReadYAML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JSON_YAML/WriteJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSON_YAML/WriteJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JSON_YAML/WriteYAML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSON_YAML/WriteYAML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Path/ClassWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Path/ClassWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Path/Open.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,9 +92,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClassWork">
-    <configuration name="ClassWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Path.ClassWork" />
+  <component name="RunManager" selected="Application.Open">
+    <configuration name="CdLs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Path.CdLs" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
@@ -116,6 +109,19 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="lesson_kpfu_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Open" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Path.Open" />
+      <module name="lesson_kpfu_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Path.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,33 +152,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JSON_YAML.WriteJson" />
-      <module name="lesson_kpfu_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JSON_YAML.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.WriteJson" />
       <item itemvalue="Application.ReadJson" />
-      <item itemvalue="Application.ClassWork" />
+      <item itemvalue="Application.CdLs" />
       <item itemvalue="Application.Searching" />
+      <item itemvalue="Application.Open" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClassWork" />
+        <item itemvalue="Application.Open" />
+        <item itemvalue="Application.CdLs" />
         <item itemvalue="Application.Searching" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ReadJson" />
-        <item itemvalue="Application.WriteJson" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +205,7 @@
       <workItem from="1586176616489" duration="989000" />
       <workItem from="1586180463532" duration="843000" />
       <workItem from="1586334963112" duration="2747000" />
-      <workItem from="1586945242991" duration="13824000" />
+      <workItem from="1586945242991" duration="14907000" />
     </task>
     <servers />
   </component>
