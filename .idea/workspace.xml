@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38dc7a4f-71c2-4dad-92d8-6a1eb8fb3e7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myfile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lesson_kpfu_2/WorkWithURI/CountDiv.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lesson_kpfu_2/WorkWithURI/InstallFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WorkWithURI/CountDiv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WorkWithURI/InstallFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson_kpfu_2/AISD/Karatsuba.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson_kpfu_2/AISD/Karatsuba.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lesson_kpfu_2/WorkWithURI/CountDiv.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson_kpfu_2/WorkWithURI/CountDiv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WorkWithURI/CountDiv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkWithURI/CountDiv.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -219,7 +215,7 @@
       <workItem from="1586334963112" duration="2747000" />
       <workItem from="1586945242991" duration="38216000" />
       <workItem from="1587363365437" duration="285000" />
-      <workItem from="1587382182468" duration="10177000" />
+      <workItem from="1587382182468" duration="11347000" />
     </task>
     <servers />
   </component>

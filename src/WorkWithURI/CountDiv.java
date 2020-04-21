@@ -8,6 +8,8 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class CountDiv {
     public static void main(String[] args) throws URISyntaxException, IOException {
@@ -22,13 +24,10 @@ public class CountDiv {
             stringBuffer.append("\n");
         }
 
-        ArrayList<String> div = new ArrayList<>();
-        for (String s : stringBuffer.toString().split("(<div)")) {
-            div.add(s);
-        }
-
-        System.out.println(div.size() - 1);
-
+        Pattern p = Pattern.compile("(<div )");
+        Matcher m = p.matcher(stringBuffer);
+        long matches = m.results().count();
+        System.out.println(matches);
     }
 
 }
