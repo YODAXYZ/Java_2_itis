@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38dc7a4f-71c2-4dad-92d8-6a1eb8fb3e7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Path/Open.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AISD/Karatsuba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AISD/Merge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AISD/MergeSortDop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AISD/codeforces/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AISD/codeforces/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AISD/codeforces/Lighthouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AISD/codeforces/Millioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AISD/codeforces/PlayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AISD/codeforces/Polshar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AISD/codeforces/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AISD/codeforces/VanyaLight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AISD/Searching.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,55 +104,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Open">
-    <configuration name="CdLs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Path.CdLs" />
-      <module name="lesson_kpfu_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Path.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="lesson_kpfu_2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Open" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Path.Open" />
-      <module name="lesson_kpfu_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Path.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JSON_YAML.ReadJson" />
-      <module name="lesson_kpfu_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JSON_YAML.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Searching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AISD.Searching" />
+  <component name="RunManager" selected="Application.Karatsuba">
+    <configuration name="Karatsuba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AISD.Karatsuba" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
@@ -152,20 +118,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lighthouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AISD.codeforces.Lighthouse" />
+      <module name="lesson_kpfu_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AISD.codeforces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AISD.Merge" />
+      <module name="lesson_kpfu_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AISD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortDop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AISD.MergeSortDop" />
+      <module name="lesson_kpfu_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AISD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Millioner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AISD.codeforces.Millioner" />
+      <module name="lesson_kpfu_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AISD.codeforces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ReadJson" />
-      <item itemvalue="Application.CdLs" />
-      <item itemvalue="Application.Searching" />
-      <item itemvalue="Application.Open" />
+      <item itemvalue="Application.Millioner" />
+      <item itemvalue="Application.Lighthouse" />
+      <item itemvalue="Application.MergeSortDop" />
+      <item itemvalue="Application.Merge" />
+      <item itemvalue="Application.Karatsuba" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Open" />
-        <item itemvalue="Application.CdLs" />
-        <item itemvalue="Application.Searching" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ReadJson" />
+        <item itemvalue="Application.Karatsuba" />
+        <item itemvalue="Application.MergeSortDop" />
+        <item itemvalue="Application.Merge" />
+        <item itemvalue="Application.Lighthouse" />
+        <item itemvalue="Application.Millioner" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +223,9 @@
       <workItem from="1586176616489" duration="989000" />
       <workItem from="1586180463532" duration="843000" />
       <workItem from="1586334963112" duration="2747000" />
-      <workItem from="1586945242991" duration="14907000" />
+      <workItem from="1586945242991" duration="38216000" />
+      <workItem from="1587363365437" duration="285000" />
+      <workItem from="1587382182468" duration="6726000" />
     </task>
     <servers />
   </component>
