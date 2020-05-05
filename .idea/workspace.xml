@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38dc7a4f-71c2-4dad-92d8-6a1eb8fb3e7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Music/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Music/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Music/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Music/Sound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/garbage/CollectionFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/garbage/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson_kpfu_2/WorkWithURI/CountDiv.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson_kpfu_2/WorkWithURI/CountDiv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lesson_kpfu_2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson_kpfu_2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lesson_kpfu_2/Path/CdLs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson_kpfu_2/Path/CdLs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Path/CdLs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Path/CdLs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WorkWithURI/CountDiv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkWithURI/CountDiv.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,6 +51,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1XhXLVEx9uUJFxHhd2nOYI6BFBw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -60,26 +76,29 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="SettingsForm" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="Map" />
-    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Homework.Comparable" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/Homework_2" />
-      <recent name="$PROJECT_DIR$/src/Homework" />
-      <recent name="$PROJECT_DIR$/src/Homework/Comparable" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Map" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="garbage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Homework_2" />
+      <recent name="$PROJECT_DIR$/src/Homework" />
+      <recent name="$PROJECT_DIR$/src/Homework/Comparable" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,13 +113,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountDiv">
-    <configuration name="CountDiv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WorkWithURI.CountDiv" />
+  <component name="RunManager" selected="Application.Sound">
+    <configuration name="CdLs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Path.CdLs" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WorkWithURI.*" />
+          <option name="PATTERN" value="Path.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstallFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WorkWithURI.InstallFile" />
+    <configuration name="File" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Music.File" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WorkWithURI.*" />
+          <option name="PATTERN" value="Music.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Karatsuba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AISD.Karatsuba" />
+    <configuration name="LinkedList (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="garbage.LinkedList" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AISD.*" />
+          <option name="PATTERN" value="garbage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AISD.Merge" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Music.Main" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AISD.*" />
+          <option name="PATTERN" value="Music.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortDop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AISD.MergeSortDop" />
+    <configuration name="Sound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Music.Sound" />
       <module name="lesson_kpfu_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AISD.*" />
+          <option name="PATTERN" value="Music.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,19 +180,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MergeSortDop" />
-      <item itemvalue="Application.Merge" />
-      <item itemvalue="Application.Karatsuba" />
-      <item itemvalue="Application.InstallFile" />
-      <item itemvalue="Application.CountDiv" />
+      <item itemvalue="Application.CdLs" />
+      <item itemvalue="Application.LinkedList (1)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.File" />
+      <item itemvalue="Application.Sound" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountDiv" />
-        <item itemvalue="Application.InstallFile" />
-        <item itemvalue="Application.Karatsuba" />
-        <item itemvalue="Application.MergeSortDop" />
-        <item itemvalue="Application.Merge" />
+        <item itemvalue="Application.Sound" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.File" />
+        <item itemvalue="Application.CdLs" />
+        <item itemvalue="Application.LinkedList (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +234,13 @@
       <workItem from="1586334963112" duration="2747000" />
       <workItem from="1586945242991" duration="38216000" />
       <workItem from="1587363365437" duration="285000" />
-      <workItem from="1587382182468" duration="11347000" />
+      <workItem from="1587382182468" duration="12286000" />
+      <workItem from="1587727960293" duration="14071000" />
+      <workItem from="1588339583004" duration="227000" />
+      <workItem from="1588694613400" duration="10000" />
+      <workItem from="1588694645574" duration="156000" />
+      <workItem from="1588694823453" duration="188000" />
+      <workItem from="1588695068168" duration="7325000" />
     </task>
     <servers />
   </component>

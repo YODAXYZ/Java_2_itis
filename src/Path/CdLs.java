@@ -1,7 +1,8 @@
 package Path;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -10,6 +11,7 @@ public class CdLs {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         String now_place = "/";
+
         while (true) {
             System.out.print("(base) MacBook-Pro-Aleksandr-2:" + now_place + " aleksandr$ ");
             String command = scanner.nextLine();
@@ -22,8 +24,9 @@ public class CdLs {
                     }
                     if (commands[1].charAt(0) == '/') {
                         folder = new File(commands[1]);
-                    } else {
-                        folder = new File(now_place + commands[1]);
+                    }
+                    else {
+                        folder = new File(String.valueOf(Paths.get(now_place).relativize(Paths.get(commands[1]))));
                     }
                 }
                 File[] listOfFiles = folder.listFiles();
@@ -51,8 +54,9 @@ public class CdLs {
                 if (commands[1].charAt(0) == '/') {
                     now_place = commands[1];
                 }
+
                 else {
-                    if (now_place.length()!= 1)
+                    if (now_place.length() != 1)
                         now_place += "/" + commands[1];
                     else
                         now_place += commands[1];
@@ -63,12 +67,43 @@ public class CdLs {
                     System.out.println("-bash: cd: No such file or directory");
                 }
             }
-            // Да я знаю, что не проделал логику для ../ -,
-            // если надо то сделаю, и да я решил использовать файл вместо работы через path и getResources,
-            // просто я сразу достаю файлы и работаю с ними а пути от рабочего директории и от
-            // и я знаю, что для чего используется, но сейчас 2 часа ночи(надеюсь на понимание)
-            // главное, что работает))))
+            String to_place = now_place;
+            if (commands[0].equals("mv")) {
+                if (commands[1].charAt(0) == '/') {
+                    now_place = commands[1];
+                }
+                else {
+                    now_place += commands[1];
+                }
+                if (commands[2].charAt(0) == '/') {
+                    to_place = commands[2];
+                }
+                else {
+                    to_place += commands[2];
+                }
+                File from = new File(now_place);
+                File to = new File(to_place);
+
+
+                copyFileUsingStream(from, to);
+            }
             if (command.equals("exit")) break;
+        }
+    }
+    private static void copyFileUsingStream(File source, File dest) throws IOException {
+        InputStream is = null;
+        OutputStream os = null;
+        try {
+            is = new FileInputStream(source);
+            os = new FileOutputStream(dest);
+            byte[] buffer = new byte[1024];
+            int length;
+            while ((length = is.read(buffer)) > 0) {
+                os.write(buffer, 0, length);
+            }
+        } finally {
+            is.close();
+            os.close();
         }
     }
 }
