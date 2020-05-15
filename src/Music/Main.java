@@ -8,7 +8,7 @@ public class Main {
         Player player = new Player();
         for (int[] note : notes) {
             if (note[1] != -1) {
-                player.playSound(0, note[0], 80, note[1]);
+                player.playSound(11, note[0], 80, note[1]);
             } else {
                 try {
                     Thread.sleep(note[0]);

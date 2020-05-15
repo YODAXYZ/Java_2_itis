@@ -1,6 +1,7 @@
 package Path;
 
 import java.io.*;
+import java.nio.channels.FileChannel;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.sql.SQLOutput;
@@ -84,13 +85,50 @@ public class CdLs {
                 File from = new File(now_place);
                 File to = new File(to_place);
 
-
-                copyFileUsingStream(from, to);
+                boolean status = copyFileUsingStream(from, to);
+                if (status) {
+                    System.out.println("File copy successfully");
+                }
+                else {
+                    System.out.println("Failed to copy the file");
+                }
             }
+            if (commands[0].equals("rm")) {
+                if (commands[1].charAt(0) == '/') {
+                    now_place = commands[1];
+                } else {
+                    now_place += commands[1];
+                }
+
+                File file = new File(now_place);
+
+                if(file.delete())
+                {
+                    System.out.println("File deleted successfully");
+                }
+                else
+                {
+                    System.out.println("Failed to delete the file");
+                }
+
+            }
+            if (commands[0].equals("cat")) {
+                if (commands[1].charAt(0) == '/') {
+                    now_place = commands[1];
+                } else {
+                    now_place += commands[1];
+                }
+                soutFile(now_place, commands[2]);
+            }
+
             if (command.equals("exit")) break;
+
+            if (commands[0].equals("test")) {
+                System.out.println("Test");
+            }
         }
     }
-    private static void copyFileUsingStream(File source, File dest) throws IOException {
+    private static boolean copyFileUsingStream(File source, File dest) throws IOException {
         InputStream is = null;
         OutputStream os = null;
         try {
@@ -104,6 +142,35 @@ public class CdLs {
         } finally {
             is.close();
             os.close();
+        }
+        return true;
+    }
+
+    private static void soutFile(String path, String encode) {
+        try {
+            File fileDir = new File(path);
+
+            BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream(fileDir), encode));
+
+            String str;
+
+            while ((str = in.readLine()) != null) {
+                System.out.println(str);
+            }
+
+            in.close();
+        }
+        catch (UnsupportedEncodingException e)
+        {
+            System.out.println(e.getMessage());
+        }
+        catch (IOException e)
+        {
+            System.out.println(e.getMessage());
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
         }
     }
 }

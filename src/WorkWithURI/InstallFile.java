@@ -8,8 +8,7 @@ import java.util.Scanner;
 
 public class InstallFile {
     public static void main(String[] args) throws URISyntaxException, IOException {
-        Scanner scanner = new Scanner(System.in);
-        String path_uri = scanner.next();
+        String path_uri = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita";
         URI uri = new URI(path_uri);
         BufferedReader in = new BufferedReader(new InputStreamReader(uri.toURL().openConnection().getInputStream()));
         StringBuffer stringBuffer = new StringBuffer();

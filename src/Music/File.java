@@ -15,16 +15,16 @@ public class File {
 //        }
 //        bufferedWriter.close();
 
-        String line = null;
-        Player player = new Player();
-        BufferedReader bufferedReader = new BufferedReader(new FileReader("song.txt"));
-        while ((line = bufferedReader.readLine()) != null) {
-            String[] notes = line.split(" ");
-            if (Integer.parseInt(notes[1]) != -1) {
-                player.playSound(0, Integer.parseInt(notes[0]), 80, Integer.parseInt(notes[1]));
-            } else {
-                try {
-                    Thread.sleep(Integer.parseInt(notes[0]));
+                    String line = null;
+                    Player player = new Player();
+                    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream("song.txt")));
+                    while ((line = bufferedReader.readLine()) != null) {
+                        String[] notes = line.split(" ");
+                        if (Integer.parseInt(notes[1]) != -1) {
+                            player.playSound(0, Integer.parseInt(notes[0]), 80, Integer.parseInt(notes[1]));
+                        } else {
+                            try {
+                                Thread.sleep(Integer.parseInt(notes[0]));
                 } catch (InterruptedException ex) {
                     System.out.println(ex);
                 }
