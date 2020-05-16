@@ -3,6 +3,7 @@ package WorkWithURI;
 import java.io.*;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -11,59 +12,18 @@ import java.util.regex.Pattern;
 
 public class InstallHtml {
     public static void main(String[] args) {
-//        String path_URI = "https://google.com";
-//        URI uri = null;
-//
-//        try {
-//            uri = new URI(path_URI);
-//        } catch (URISyntaxException e) {
-//            e.printStackTrace();
-//        }
-//
-//        BufferedReader in = null;
-//        try {
-//            in = new BufferedReader(new InputStreamReader(uri.toURL().openConnection().getInputStream()));
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//
-//        StringBuffer stringBuffer = new StringBuffer();
-//        try {
-//            String line;
-//            while ((line = in.readLine()) != null) {
-//                stringBuffer.append(line);
-//                stringBuffer.append("\n");
-//            }
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//
-//        ArrayList<String> allMatches = new ArrayList<String>();
-//        Pattern p = Pattern.compile("https:\\/\\/\\S+|http:\\/\\/\\S+");
-//        Matcher m = p.matcher(stringBuffer);
-//
-//        while (true) {
-//            while (m.find()) {
-//                allMatches.add(m.group());
-//            }
-//        }
-
-//        Pattern p = Pattern.compile("(<div )");
-//        Matcher m = p.matcher(stringBuffer);
-//        long matches = m.results().count();
-//        System.out.println(matches);
-//        downloadHtml("https://tproger.ru");
-//        downloadHtml("https://gmpg.org/xfn/11");
-        downloadHtml("https://tproger.ru/books/linux/");
+        downloadHtml("https://www.kinopoisk.ru/series/841914/");
     }
     
     private static void downloadHtml (String path_URI) {
+        path_URI = path_URI.toLowerCase();
         URI uri = null;
 
         try {
             uri = new URI(path_URI);
         } catch (URISyntaxException e) {
-            e.printStackTrace();
+            System.out.println("Error with path URL " + path_URI);
+            return;
         }
 
         BufferedReader in = null;
