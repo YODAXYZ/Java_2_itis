@@ -14,8 +14,8 @@ public class InstallHtml {
     public static void main(String[] args) {
         downloadHtml("https://www.kinopoisk.ru/series/841914/");
     }
-    
-    private static void downloadHtml (String path_URI) {
+
+    private static void downloadHtml(String path_URI) {
         path_URI = path_URI.toLowerCase();
         URI uri = null;
 
@@ -66,8 +66,7 @@ public class InstallHtml {
             boolean exists = tmpDir.exists();
             if (exists) {
                 continue;
-            }
-            else {
+            } else {
                 String href = "";
                 for (int j = 0; j < allMatches.get(i).length() - 1; j++) {
                     href += allMatches.get(i).charAt(j);
@@ -77,3 +76,4 @@ public class InstallHtml {
         }
     }
 }
+
