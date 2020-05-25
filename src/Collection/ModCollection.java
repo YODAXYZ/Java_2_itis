@@ -2,6 +2,7 @@ package Collection;
 
 import javax.swing.*;
 import java.util.AbstractCollection;
+import java.util.Arrays;
 import java.util.Iterator;
 
 public class ModCollection<T> extends AbstractCollection<T> {
@@ -69,6 +70,16 @@ public class ModCollection<T> extends AbstractCollection<T> {
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ModCollection<?> that = (ModCollection<?>) o;
+
+        if(last != that.last) return false;
+        return Arrays.equals(array, that.array);
     }
 
 
