@@ -1,6 +1,5 @@
-package Collection;
+package UnitTest;
 
-import javax.swing.*;
 import java.util.AbstractCollection;
 import java.util.Arrays;
 import java.util.Iterator;
