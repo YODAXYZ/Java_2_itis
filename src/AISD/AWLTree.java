@@ -209,7 +209,6 @@ public class AWLTree {
         tree.root = tree.insert(25);
         tree.root = tree.deleteNode(5);
 
-
         tree.dfs(tree.root);
     }
 

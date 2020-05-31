@@ -1,14 +1,16 @@
 Homework
-4) File : Collection
-5) File : Collection
-6) File : Map.map or Map.HashMap
+4.2) File : Collection.ModCollection
+5) File : Collection.ModCollection and NavigableSet
+6) File : Map.map
 7) File : lambda_stream
-8) File: Output_Input_Stream
-9) File: Serialize (Student) 
-10) File: Serialize 
-11) File: IniFile
-12) File: Regex
-13) File: JSON_YAML (с YAML проблема c сom.fasterxml.jackson.databind)
+    7.4) lambda_stream.Lambda_comparator
+    7.5-7.8) lambda_stream.Stream_hw
+8) File: Output_Input_Stream.ReadFile and Output_Input_Stream.WriteFile
+9) File: Serialize (Serialize.Student)
+10) File: Serialize (All File with Serialize.(Data/Object)(Input/Output))
+11) File: IniFile.IniFile and IniFile.WorkWithIni
+12) File: Regex.Email and Regex.Href
+13) File: JSON_YAML.*
 15) File: Path CdLs 
 16) File: WorkWithURI
 17)+ File: Music

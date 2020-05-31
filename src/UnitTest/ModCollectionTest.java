@@ -17,8 +17,6 @@ class ModCollectionTest {
     void size_err() {
         Integer[] mas = new Integer[]{1,2,3,4};
         ModCollection<Integer> arr = new ModCollection<Integer>(mas);
-        ModCollection<Integer> arr1 = new ModCollection<Integer>(mas);
-        Assert.assertEquals(arr.size_err(), arr1.size_err());
         Assert.assertEquals(arr.size_err(), 4);
     }
 

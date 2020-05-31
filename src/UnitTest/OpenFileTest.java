@@ -2,8 +2,7 @@ package UnitTest;
 
 import org.junit.jupiter.api.Test;
 
-import static junit.framework.Assert.assertEquals;
-import static junit.framework.Assert.assertFalse;
+import static junit.framework.Assert.*;
 
 class OpenFileTest {
     String pathFile;
@@ -11,9 +10,11 @@ class OpenFileTest {
     @org.junit.jupiter.api.Test
     String soutPath() {
         if (pathFile != null) {
-            System.out.print("Path to file: ");
             String result = new OpenFile("some_file").soutPath();
-            assertEquals("some_file", result);
+            String result2 = new OpenFile("some_file").soutPath();
+            assertEquals(result, "some_file");
+            assertEquals(result, result2);
+            assertNotSame(result, "");
         }
         return null;
     }
